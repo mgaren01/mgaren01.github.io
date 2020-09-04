@@ -37,7 +37,10 @@ nav li {
 
 main {
     display: flex;
-    flex: 4;
+}
+
+main {
+    flex: 2;
 }
 
 aside {
