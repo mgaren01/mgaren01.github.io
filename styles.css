@@ -35,10 +35,18 @@ nav li {
 
 /* main layout */
 
-
+main {
+    display: flex;
+}
 
 aside {
     flex: 1;
     margin-left: 15px;
     padding: 2%;
+}
+
+aside a {
+    display: block;
+    float: left;
+    width: 52%;
 }
