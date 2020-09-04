@@ -1,3 +1,8 @@
 h1 {
+    color: blue;
+}
+
+.special {
     color: red;
+    font-weight: bold;   
 }
