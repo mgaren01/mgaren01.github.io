@@ -2,10 +2,32 @@ h1 {
     color: blue;
 }
 
-.special {
+h1 + .special {
     color: red;
     font-weight: bold;   
 }
+
+h2 {
+    background-color: royalblue;
+}
+
+/* nav layout */
+
+nav {
+    height: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    text-align: center;
+}
+
+/* main layout */
+
 
 main {
     display: flex;
