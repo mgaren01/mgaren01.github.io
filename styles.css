@@ -9,12 +9,14 @@ h1 + .special {
 
 h2 {
     background-color: royalblue;
+    padding: 1%;
 }
 
 /* nav layout */
 
 nav {
     height: 50px;
+    display: flex;
 }
 
 nav ul {
@@ -29,6 +31,9 @@ nav li {
 /* main layout */
 
 
-main {
-    display: flex;
+/* sidebar layout */
+
+aside {
+    flex: 1;
+
 }
