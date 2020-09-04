@@ -12,6 +12,10 @@ h2 {
     padding: 1%;
 }
 
+body {
+    width: 70%;
+}
+
 /* nav layout */
 
 nav {
