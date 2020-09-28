@@ -5,155 +5,165 @@
 <head>
     <title>Mike's Truly Awful Posts</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
     <style>
-        .special {color: red;}
-        h1, h2, p {text-align: center;}
+        /* .special {color: red;} */
+        h1,
+        h2,
+        p {
+            text-align: center;
+        }
+
+        .card {
+            background-color: crimson;
+        }
+
+        .card-title, .card-text {
+            color: gold;
+        }
+
+        .btn {
+            background-color: indigo;
+        }
+
         .maintext {
             column-count: 1;
         }
-        .navbg {
+
+        /* .navbg {
             background-color: goldenrod;
-        }
+        } */
     </style>
 </head>
 
 <body>
+    <!-- <h1>Mike's Truly <div class="special">Awful</div> Posts</h1>
+        <h2>Unasked-for Feelings and Opinions</h2> -->
+    <container class="header">
+        <div class="jumbotron jumbotron-fluid text-center mb-0">
+            <div class="container">
+                <h1 class="display-4">Mike's Slightly Improved Blog</h1>
+                <p class="lead special">"Now with less Awfulness"</p>
+            </div>
+        </div>
+    </container>
 
-    <header>
-        <h1>Mike's Truly <div class="special">Awful</div> Posts</h1>
-        <h2>Unasked-for Feelings and Opinions</h2>
-    </header>
+    <!--<div class="navbg">
+        <nav>-->
+    <!-- <ul>
+                <li><span><strong>Home</strong></span></li>
+                <li><a href="posts.html"><strong>Posts</strong></a></li>
+                <li><a href="projects.html"><strong>Projects</strong></a></li>
+                <li><a href="links.html"><strong>Links</strong></a></li>
+            </ul> -->
+    <!--*New Navbar*-->
+    <container class="nav pt-0">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark pt-0">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-    <div class="navbg">
-    <nav>
-        <ul>
-            <li><span><a href="index.html"><strong>Home</strong></a></span></li>
-            <li><strong>Posts</strong></li>
-            <li><a href= "projects.html"><strong>Projects</strong></a></li>
-            <li><a href= "links.html"><strong>Links</strong></a></li>
-        </ul>    
-    </nav> 
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="index.html" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Go To:
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="posts.html">Posts</a>
+                            <br>
+                            <a class="dropdown-item" href="projects.html">Projects</a>
+                            <br>
+                            <a class="dropdown-item" href="links.html">Links</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://sovereignstudio.wordpress.com/">Art!</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!--</nav>-->
+        </div>
+    </container>
+
+
+<div class="main">
+    <br>
+    <div class="row text-center">
+        <div class="col-6 text-center">
+            <div class="card mx-auto" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Week One</h5>
+                    <p class="card-text">So it begins</p>
+                    <a href="blogtext/text1.html" class="btn btn-primary">Go</a>
+                </div>
+            </div>
+<br>
+            <div class="card mx-auto" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Week Three</h5>
+                    <p class="card-text">Trials and Tribulations</p>
+                    <a href="blogtext/text3.html" class="btn btn-primary">Go</a>
+                </div>
+            </div>
+<br>
+            <div class="card mx-auto" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Week Five</h5>
+                    <p class="card-text">The Beginning of the Middle</p>
+                    <a href="blogtext/text5.html" class="btn btn-primary">Go</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-6 text-center">
+            <div class="card mx-auto" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Week Two</h5>
+                    <p class="card-text">Electric Boogaloo</p>
+                    <a href="blogtext/text2.html" class="btn btn-primary">Go</a>
+                </div>
+            </div>
+<br>
+            <div class="card mx-auto" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Week Four</h5>
+                    <p class="card-text">The End of the Beginning</p>
+                    <a href="blogtext/text4.html" class="btn btn-primary">Go</a>
+                </div>
+            </div>
+<br>
+            <div class="card mx-auto" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Week Six</h5>
+                    <p class="card-text">Error 404: Future not found.</p>
+                    <a href="#" class="btn btn-primary">Go</a>
+                </div>
+            </div>
+        </div>
+    </div>
+        
     </div>
 
-    <main>
-        <div class="maintext">
-        <h2>Week One</h2>
-        <p>The struggle, as they say, is real.  If I had to characterize my 
-            experience in one word, it would be "stressful."  I didn't know
-            what to expect, and generally try to avoid expectations in favor of
-            anticipation, but I was nonetheless thrown somewhat for a loop.<br>
-            That's not necessarily a bad thing, though.  It means I've learned 
-            the reality of what I'm in for, which means I can now set my
-            expectations accordingly.  And this page should be evidence enough
-            that I managed to grasp some programming basics as well.<br> 
-            The introductory materials did not disappoint in what they predicted.
-            I did want to quit, a couple different times.  But now I'm glad I didn't.
-            The material wasn't as hard as I'd convinced myself it was.  And 
-            though my page will be far from complete, or even "nice" for that 
-            matter, for demo, it is at least a beginning, and I am happy 
-            enough with that for now.<br>  
-            They say the scariest thing for artists and writers is a blank page.
-            I think the same thing is true for programming.  Having now put pen 
-            to paper, if you will, the hardest part is done.  I look forward to
-            learning more, the better to build on this beginning.
-        </p>
-
-        <h2>Week Two</h2>
-        <p>In general, the second week has, for me, gone more smoothly than 
-            the first.  Somehow, I felt like I had more time to do what I 
-            needed to do.  That's not to say it was without stress, but I 
-            suppose that's fairly normal when learning and applying new
-            things.<br>
-            The excercise in Pseudocoding proved to be an interesting one.
-            It is a part of the practice of programming that I never knew
-            existed until just recently, though in retrospect it makes a 
-            lot of sense that one would try to break up a problem into 
-            component parts.  I was happy to discover that this logical
-            excercise played to my strengths as a philosophy student, and 
-            thereby did not throw me off much at all.  It was still a challenge,
-            certainly, but one which I was equipped in advance to handle.<br>
-            Though it did help that I got to pick my project.  I always enjoy that.<br>
-            As before, I remain interested to see how new materials
-            will allow us to build on what's already been done.
-        </p>
-
-        <h2>Week Three</h2>
-        <p>So this week started out maybe more stressful than the first.  Not sure 
-            if it was something in the water or what, but from the end of last week,
-            it seemed as though any confidence had gone straight out of me. <br>
-            Thankfully, I was able to learn (all over again) that asking for help is
-            my best weapon through this process.  I think that maybe my biggest 
-            challenge is that I'm no longer used to pursuing things past the point of
-            being bad at them, and what I've experienced are the growing pains of
-            growing into that role of student again.  Whatever things I've learned in 
-            the last few years have mostly been simple and easy to get used to.  Hard 
-            things, as I'm relearning, are hard.<br>
-            The hard work is slowly starting to pay off, too.  While it's still true
-            that I don't necessarily grasp everything on the first, or even second, 
-            attempt, I do grasp more now than I did at the beginning, and I think I'm 
-            starting to become used to the idea of experimenting around to find a workable
-            solution to my coding problems.  Still, must always remind myself to seek 
-            help when I'm driving myself mad.  For this week, there are some who certainly
-            have earned a shout-out for their invaluable assistance (they know who they are!).<br>
-            So again I find myself in the position of saying that, having wanted to quit,
-            I'm once more glad that I did not.  And not to sound too egomaniacal, but I'm 
-            now looking forward to seeing what I can overcome next.
-        </p>
-
-        <h2>Week Four</h2>
-        <p>This has been a much better week.  After a rocky start on Monday,
-            I rediscovered the benefits of actually being on-site, and the 
-            immediacy of assistance.  It's probably not exaggerating by much
-            at all to suggest that I may not have completed my projects this 
-            week if I had not left the house.  Thankfully, it seems to be finally
-            sinking in for me that help is not only available, but is desirable 
-            to seek out.<br>
-            Now that my work and support habits/needs are more in order, it's a
-            deal easier to have a little fun.  I still find javascript to be a 
-            bit of a pain, but I suppose that's to be expected when learning 
-            a new language in tandem with a new way to structure one's 
-            thinking.  It being a pain does not, however, suggest that I'm not 
-            starting to get it; while, starting out, it was easy enough to 
-            identify an individual expression, now it's getting easier to identify
-            what the expression is <em>saying</em>.  And not to beat a dead horse,
-            but I would probably not be where I am without help (which I reiterate
-            mostly for my own benefit).  <br>
-            I'm happy to say that I have very few misgivings about going forward 
-            into full-time.  I eagerly anticipate a larger one-to-one environment, 
-            with lots of people to bounce ideas off of and generally collaborate
-            with.  <br>   
-            See you next week!
-        </p>
-
-        <h2>Week Five (Full-Time Week One)</h2>
-        <p>The setting makes the difference.  I know I've already said it, but the 
-            whole work-from-home deal was just not doing it for me.  Actually being 
-            in the office, and now actually having a bunch of people around as well, 
-            is a game-changer.  And as I get more comfortable with everyone, everything 
-            else seems to be flowing that much smoother.<br>
-            That's not to say things haven't still been challenging, because they have.
-            The weight of the challenge, however, is slowly becoming subsumed by the
-            enjoyment of figuring something out and applying it.  Case in point: this week's 
-            projects provided a nice mix of creative and logical challenges that overlapped
-            well, and the local network of support made solving the various problems that 
-            arose a deal less arduous.  Though it was always clear that I should reach out 
-            for help if I needed it, I didn't always feel right about seeking guidance.<br>
-            Weirdly, being in-person seems to have taken the ego out of it for me.  Id've 
-            thought the reverse.  <br>
-            I can't go without mentioning the session in the park with Dr. Luke, which was 
-            a very positive experience.  Having the words to describe my goals in showing 
-            up every day makes the hard parts a little easier to put up with.  Rather than 
-            laboring in the service of some vague potential that's "over there," I now have
-            something more solid to latch onto.  <br>
-            I think that about does it for now.  I'm looking forward to converting this blog
-            over to bootstrap, and generally getting my hands dirty elsewhere. <br>
-            Until next time.
-        </p>
-    </div>
-    </main>
-
-
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

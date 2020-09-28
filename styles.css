@@ -1,4 +1,4 @@
-h1 {
+/* h1 {
     color: blue;
 }
 
@@ -10,14 +10,32 @@ h1 + .special {
 h2 {
     background-color: royalblue;
     padding: 1%;
-}
+} */
 
 /* nav layout */
+
+.jumbotron-fluid{
+    background-color: crimson;
+}
+
+h1 {
+    color: gold;
+}
+
+.special {
+    color: gold;
+}
+
+.main {
+    background-color: indigo;
+    color: gold;
+}
 
 nav {
     height: 50px;
     flex: 100%;
     display: flex;
+    padding-top: 0%;
 }
 
 nav ul {
@@ -33,9 +51,11 @@ nav li {
     flex: 1;
 }
 
+
+
 /* main layout */
 
-main {
+/* main {
     display: flex;
 }
 
@@ -57,4 +77,4 @@ aside a {
 
 aside img {
     max-width: 100%;
-}
+} */
