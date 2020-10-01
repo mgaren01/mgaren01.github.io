@@ -32,6 +32,10 @@
         ul {
             list-style-type: none;
         }
+
+        .card {
+            background-color: crimson;
+        }
     </style>
 </head>
 
@@ -101,27 +105,31 @@
     <div class="main">
         <div class="maintext text-center">
             <br>
-            <h3>Find me at these fine places:</h3>
+            <div class="card mx-auto" style="width: 18rem;">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Find me at these fine places:</h5>
+                    <ul>
+                        <li><button class="btn" onclick="window.location.href='https://github.com/mgaren01';"><i class="fab fa-github-square"></i> Github</button></li>
+                        <br>
+                        <li><button class="btn" onclick="window.location.href='https://www.linkedin.com/in/michael-garen-967b44aa/?trk=people-guest_people_search-card';"><i class="fab fa-linkedin"></i> linkedIn</button></li>
+                        <br>
+                        <li><button class="btn" onclick="window.location.href='https://www.codewars.com/users/mgaren01';"><i class="fas fa-exclamation-circle"></i> Codewars</button></li>
+                        <br>
+                        <li><button class="btn" onclick="window.location.href='https://sovereignstudio.wordpress.com/';"><i class="fas fa-crown"></i> Sovereign Studio (art!)</button></li>
+                    </ul>
+                </div>
+            </div>
             <br>
-            <ul>
-                <li><button class="btn" onclick="window.location.href='https://github.com/mgaren01';"><i class="fab fa-github-square"></i> Github</button></li>
-                <br>
-                <li><button class="btn" onclick="window.location.href='https://www.linkedin.com/in/michael-garen-967b44aa/?trk=people-guest_people_search-card';"><i class="fab fa-linkedin"></i> linkedIn</button></li>
-                <br>
-                <li><button class="btn" onclick="window.location.href='https://www.codewars.com/users/mgaren01';"><i class="fas fa-exclamation-circle"></i> Codewars</button></li>
-                <br>
-                <li><button class="btn" onclick="window.location.href='https://sovereignstudio.wordpress.com/';"><i class="fas fa-crown"></i> Sovereign Studio (art!)</button></li>
-            </ul>
         </div>
     </div>
 
     
         <footer class="footer">
             <ul class="mt-2">
-                <li><button class="btn"><i class="fab fa-github-square"></i></button></li>
-                <li><button class="btn"><i class="fab fa-linkedin"></i></button></li>
-                <li><button class="btn"><i class="fas fa-exclamation-circle"></i></button></li>
-                <li><button class="btn"><i class="fas fa-crown"></i></button></li>
+                <li><button class="btn"><i class="fab fa-github-square fa-2x"></i></button></li>
+                <li><button class="btn"><i class="fab fa-linkedin fa-2x"></i></button></li>
+                <li><button class="btn"><i class="fas fa-exclamation-circle fa-2x"></i></button></li>
+                <li><button class="btn"><i class="fas fa-crown fa-2x"></i></button></li>
             </ul>
         </footer>
         
