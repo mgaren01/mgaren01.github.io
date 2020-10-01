@@ -51,6 +51,30 @@ nav li {
     flex: 1;
 }
 
+footer {
+    height: 50px;
+    flex: 100%;
+    display: flex;
+    background: silver;
+}
+
+footer ul {
+    padding: 1;
+    list-style-type: none;
+    flex: 2;
+    display: flex;
+}
+
+footer li {
+    display: inline;
+    text-align: center;
+    flex: 1;
+}
+
+.btn {
+    color: gold;
+}
+
 
 
 /* main layout */
