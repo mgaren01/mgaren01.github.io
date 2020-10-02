@@ -3,46 +3,160 @@
 
 <head>
 
-    <title>Mike's Truly, Terribly, Certifiably, Hyperbolically, Incomprehensibly, Painfully, Awful Blog</title>
+    <title>Mike's Slightly Improved Blog</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/9aa13ba559.js" crossorigin="anonymous"></script>
     <style>
-        h1 {color: blue;}
-        .special {color: red;}
-        h1, h2, p, iframe {text-align: center;}
-        .navbg {
-            background-color: goldenrod;
+        h1, h3 {
+            color: gold;
         }
+
+        .special {
+            color: gold;
+        }
+
+        .btn {
+            background-color: indigo;
+        }
+
+        /* h1,
+        h2,
+        p,
+        iframe {
+            text-align: center;
+        } */
+
+        /* .navbg {
+            background-color: goldenrod;
+        } */
     </style>
 
 </head>
 
 <body>
 
-    <header>
-        <h1>Mike's Truly, Terribly, Certifiably, Hyperbolically, Incomprehensibly, Painfully, <div class=special>Awful</div> Blog! (Title Pending)</h1>
-        <h2>A Work In Progress</h2>
-    </header>
-    
-    <div class="navbg">
-    <nav>
-        <ul>
-            <li><span><strong>Home</strong></span></li>
-            <li><a href= "posts.html"><strong>Posts</strong></a></li>
-            <li><a href= "projects.html"><strong>Projects</strong></a></li>
-            <li><a href= "links.html"><strong>Links</strong></a></li>
-        </ul>    
-    </nav> 
-    </div> 
-    
-    <main>
-        <h2>Welcome!</h2>
-        <p>This (awful) main page is mostly placeholder for now, until I think of something really clever to do with it.  Until that time transpires, please enjoy the soothing, dulcet sounds of some <strong>MONGOLIAN METAL!</strong>
+    <container class="header">
+        <!-- <h1>Mike's Truly, Terribly, Certifiably, Hyperbolically, Incomprehensibly, Painfully, <div class=special>Awful
+            </div> Blog! (Title Pending)</h1>
+        <h2>A Work In Progress</h2> -->
+        <!--*New Header*-->
+        <div class="jumbotron jumbotron-fluid text-center mb-0">
+            <div class="container">
+                <h1 class="display-4">Mike's Slightly Improved Blog</h1>
+                <p class="lead special">"Now with less Awfulness"</p>
+            </div>
+        </div>
+    </container>
+
+    <!--<div class="navbg">
+        <nav>-->
+    <!-- <ul>
+                <li><span><strong>Home</strong></span></li>
+                <li><a href="posts.html"><strong>Posts</strong></a></li>
+                <li><a href="projects.html"><strong>Projects</strong></a></li>
+                <li><a href="links.html"><strong>Links</strong></a></li>
+            </ul> -->
+    <!--*New Navbar*-->
+    <container class="nav pt-0">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark pt-0">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Go To:
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="posts.html">Posts</a>
+                            <br>
+                            <a class="dropdown-item" href="projects.html">Projects</a>
+                            <br>
+                            <a class="dropdown-item" href="links.html">Links</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://sovereignstudio.wordpress.com/">Art!</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!--</nav>-->
+        </div>
+    </container>
+
+    <!-- <h2>Welcome!</h2> -->
+
+    <div class="main">
+
+        <div class="row">
+            <div class="col-5 text-center text-align-left ml-5">
+                <br>
+                <h3>Hail and Well Met!</h3>
+                <p>Thank you for joining me here, in this blog which I've built from scratch!  I am Mike, and let this be a repository,
+                    and a representative in itself, of my progress through the Coding Bootcamp
+                    @ Awesome Inc.  
+                </p>
+                <br>
+                <h4>About Me:</h4>
+                <p>I am a (relatively) young professional in the Lexington area, educated in
+                    Philosophy.  As noted above, I am a member of the Fall 2020 cohort of Awesome Inc's
+                    Coding Bootcamp, which I hope will enhance my career opportunies through greater 
+                    tech-savvy. <br>
+                    My interests are many and varied, and include: Traditional and Digital Art;
+                    Speculative Fiction-Writing; History (Rome, Greece, Egypt, Vikings); Dead Languages (Latin, Old Norse);
+                    and Martial Arts, among others. <br>
+                    Please enjoy your stay on my site!   
+                </p>
+            </div>
+            <div class="col-6 text-center ml-3">
+                <br>
+                <p>Provided for your entertainment: one of my new favorite bands.  They come
+                    with my highest recommendation, and I can virtually guarantee you've never
+                    heard anything quite like them before!
+                </p>
+                <iframe width="500" height="300" src="https://www.youtube.com/embed/jM8dCGIm6yc" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                </p>
+                
+            </div>
+        </div>
         <br>
-        <iframe width="500" height="300" src="https://www.youtube.com/embed/jM8dCGIm6yc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+    </div>
+        <footer>
+            <ul class="mt-2">
+                <li><button class="btn"><i class="fab fa-github-square"></i></button></li>
+                <li><button class="btn"><i class="fab fa-linkedin"></i></button></li>
+                <li><button class="btn"><i class="fas fa-exclamation-circle"></i></button></li>
+                <li><button class="btn"><i class="fas fa-crown"></i></button></li>
+            </ul>
+        </footer>
 
-    </main>
+    
 
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

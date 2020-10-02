@@ -1,4 +1,4 @@
-h1 {
+/* h1 {
     color: blue;
 }
 
@@ -10,14 +10,32 @@ h1 + .special {
 h2 {
     background-color: royalblue;
     padding: 1%;
-}
+} */
 
 /* nav layout */
+
+.jumbotron-fluid{
+    background-color: crimson;
+}
+
+h1 {
+    color: gold;
+}
+
+.special {
+    color: gold;
+}
+
+.main {
+    background-color: indigo;
+    color: gold;
+}
 
 nav {
     height: 50px;
     flex: 100%;
     display: flex;
+    padding-top: 0%;
 }
 
 nav ul {
@@ -33,9 +51,35 @@ nav li {
     flex: 1;
 }
 
+footer {
+    height: 75px;
+    flex: 100%;
+    display: flex;
+    background: silver;
+}
+
+footer ul {
+    padding: 1;
+    list-style-type: none;
+    flex: 2;
+    display: flex;
+}
+
+footer li {
+    display: inline;
+    text-align: center;
+    flex: 1;
+}
+
+.btn {
+    color: gold;
+}
+
+
+
 /* main layout */
 
-main {
+/* main {
     display: flex;
 }
 
@@ -57,4 +101,4 @@ aside a {
 
 aside img {
     max-width: 100%;
-}
+} */
